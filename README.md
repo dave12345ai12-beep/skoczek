@@ -1,0 +1,2 @@
+# skoczek
+gra skoczek
