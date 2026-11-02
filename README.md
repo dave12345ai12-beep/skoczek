@@ -15,6 +15,7 @@ Gra platformowa w przeglądarce. Żabka przechodzi 10 krain: Polana, Gęsty las,
 
 ```
 index.html              cała gra
+favicon.ico             ikona dla Windows (skróty, pasek zadań)
 manifest.webmanifest    instalacja na ekranie głównym
 sw.js                   tryb offline
 icons/                  ikony aplikacji
@@ -34,4 +35,10 @@ Otwórz adres gry w przeglądarce, a potem z menu wybierz **Dodaj do ekranu gł�
 
 ## Aktualizacja gry
 
-Podmień `index.html`, a w `sw.js` zmień `skoczek-v1` na `skoczek-v2` (i tak dalej przy każdej zmianie), żeby telefony pobrały nową wersję.
+Podmień `index.html`, a w `sw.js` podbij numer wersji (teraz `skoczek-v2`, następnym razem `skoczek-v3` itd.), żeby telefony pobrały nową wersję.
+
+## Instalacja na komputerze (Windows)
+
+Otwórz adres gry w Edge lub Chrome i kliknij ikonę **Zainstaluj** w pasku adresu (lub menu **⋯ → Aplikacje → Zainstaluj tę witrynę jako aplikację**). Gra dostanie własną ikonę w menu Start i na pasku zadań.
+
+Nie zapisuj strony przez **Zapisz jako**: zapisana kopia nie widzi plików obok siebie i nie da się jej zainstalować.
